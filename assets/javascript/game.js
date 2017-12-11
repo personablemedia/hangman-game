@@ -97,7 +97,7 @@ window.onload = function () {
       showLives.innerHTML = "Game Over! Press any key to play again.";
       reset();
     }
-    if (guess.innerHTML == word.length) {
+    if (counter == word.length) {
       showLives.innerHTML = "You Win! Press any key to play again.";
       wins += 1;
       showWins.innerHTML = "Wins:" + wins;
